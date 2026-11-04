@@ -1,0 +1,21 @@
+# 비밀값·로컬 설정 (커밋 금지)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.p8
+google-services.json
+.env*
+
+# 빌드 산출물
+.gradle/
+build/
+**/build/
+*.iml
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
